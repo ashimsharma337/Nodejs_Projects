@@ -1,0 +1,25 @@
+{
+  "name": "nodejs_projects",
+  "private": true,
+  "workspaces": [
+    "projects/*"
+  ],
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:image-resizer": "node projects/image-resizer/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashimsharma337/Nodejs_Projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashimsharma337/Nodejs_Projects/issues"
+  },
+  "homepage": "https://github.com/ashimsharma337/Nodejs_Projects#readme"
+}
