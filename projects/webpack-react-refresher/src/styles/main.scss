@@ -1,0 +1,56 @@
+@use "./variables" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: $background-color;
+  color: $text-color;
+}
+
+.app {
+  width: 600px;
+  margin: 60px auto;
+}
+
+.header {
+  margin-bottom: 24px;
+
+  h1 {
+    margin-bottom: 8px;
+    color: $primary-color;
+  }
+
+  p {
+    color: #6b7280;
+  }
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 16px;
+  background: white;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+
+  &.completed {
+    color: $success-color;
+    text-decoration: line-through;
+  }
+
+  .task-status {
+    font-weight: bold;
+  }
+}
