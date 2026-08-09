@@ -16,3 +16,6 @@ projects/*/output/
 # OS files
 .DS_Store
 Thumbs.db
+
+# env 
+projects/data-ingestion-service/.env
