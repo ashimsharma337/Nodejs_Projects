@@ -54,3 +54,21 @@ body {
     font-weight: bold;
   }
 }
+
+.environment {
+  margin-top: 24px;
+  padding: 20px;
+
+  background: white;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+
+  h2 {
+    margin-top: 0;
+    color: $primary-color;
+  }
+
+  p {
+    margin: 8px 0;
+  }
+}
